@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    image: parnpailin/strapi
+    container_name: 67-ced-strapi
+    environment:
+      - DATABASE_CLIENT=postgres
+      - DATABASE_HOST=192.168.64.1
+      - DATABASE_PORT=54321
+      - DATABASE_NAME=parnpairin
+      - DATABASE_USERNAME=parnpairin
+      - DATABASE_PASSWORD=parnpa1r1n
